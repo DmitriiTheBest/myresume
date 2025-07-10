@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="dmitrii, portfolio, cv, resume, web developer"
+    />
+    <meta name="description" content="This is a Dmitrii Sass Portfolio Site" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="/favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>Dmitrii Portfolio Site</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="info">
+        <img class="avatar" src="/img/IMG_0653.jpeg" alt="Дмитрий Сасс" />
+
+        <div class="info-text">
+          <h1>Дмитрий Сасс</h1>
+
+          <p>
+            Я <strong>начинающий веб-разработчик</strong> с опытом работы в
+            HTML, CSS и JavaScript.
+          </p>
+
+          <p>
+            Я люблю
+            <em
+              >английский язык, путешествия, увлекаюсь спортом и
+              программированием</em
+            >
+          </p>
+
+          <h4>Список социальных сетей:</h4>
+
+          <a href="#" target="_blank">Instagram</a>
+          |
+          <a href="#" target="_blank">Telegram</a>
+          |
+          <a href="#" target="_blank">Facebook</a>
+        </div>
+      </div>
+
+      <div class="card hobby">
+        <h2>Мои хобби</h2>
+        <ol class="list_hobbies">
+          <li>Английский язык</li>
+          <li>Путешествия</li>
+          <li>Футбол</li>
+          <li>Программирование</li>
+          <li>Фильмы и музыка</li>
+        </ol>
+      </div>
+
+      <div class="card experience">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Название</th>
+              <th>Должность</th>
+              <th>Годы работы</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Skypro. Проектная деятельность, фриланс</td>
+              <td>Frontend-разработчик</td>
+              <td>Февраль 2022 года - настоящее времяя</td>
+            </tr>
+            <tr>
+              <td>Skyeng</td>
+              <td>Учитель английского языка онлайн</td>
+              <td>2018 - настоящее время</td>
+            </tr>
+            <tr>
+              <td>ГБОУ "Школа № 1795 Лосиноостровская"</td>
+              <td>Учитель английского языка</td>
+              <td>2021 - 2024</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card courses">
+        <h2>Мои курсы</h2>
+        <ul class="list_courses">
+          <li>
+            <strong>"Frontend-разработчик"</strong><br />
+            <em
+              >Онлайн-университет цифровых профессий SkyPro, Web-разработка</em
+            >
+          </li>
+          <br />
+          <li>
+            <strong>Основы HTML, CSS, JavaScript</strong><br /><em
+              >Result University, Web-разработка</em
+            >
+          </li>
+          <br />
+          <li>
+            <strong
+              >Профессиональная переподготовка по программе "Переводчик в сфере
+              профессиональной коммуникации"</strong
+            ><br />
+            <em>Международный университет цифровой экономики и технологий</em>
+            <br />
+          </li>
+          <br />
+          <li>
+            <strong>TEFL/TESOL with TEYL</strong>
+            <br /><em
+              >Intesol Worldwide LTD, Teacher of English for Foreign
+              Learners</em
+            >
+          </li>
+          <br />
+          <li>
+            <strong>Galway Cultural Institute</strong>
+            <br /><em
+              >Galway Cultural Institute, Certificate in English language
+              studies</em
+            >
+          </li>
+        </ul>
+      </div>
+
+      <form action="/" class="contact-form">
+        <h2>Связаться со мной</h2>
+
+        <div class="form_row">
+          <div class="form_group">
+            <label class="name" for="name">Ваше имя:</label>
+            <input
+              class="input-name"
+              type="text"
+              id="name"
+              placeholder="Insert your name"
+            />
+          </div>
+          <div class="form_group">
+            <label class="email" for="email">Ваш email:</label>
+            <input
+              class="input-email"
+              type="text"
+              id="email"
+              placeholder="Insert your email"
+            />
+          </div>
+        </div>
+
+        <div class="form_group">
+          <label class="message" for="message">Ваше сообщение:</label>
+          <textarea
+            name=""
+            id="message"
+            cols="20"
+            rows="5"
+            placeholder="Insert your message..."
+          ></textarea>
+        </div>
+
+        <input class="btn" type="submit" value="Отправить" />
+      </form>
+      <br />
+      <br />
+      <br />
+    </div>
+  </body>
+</html>
