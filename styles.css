@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #0F141E;
+    background: #F1F1F1;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.info {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.avatar { 
+    width: 350px;
+    border-radius: 25px;
+    box-shadow: 10px 4px 15px rgba(146, 165, 214, 0.8);
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 0;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 716px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+    .avatar {
+        width: 250px;
+        margin: auto;
+    }
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+    /* transition: all 0.6s; */
+}
+
+a:hover {
+    color: #aa3acc;
+    /* font-size: larger; */
+    text-decoration: underline;
+}
+
+a:active {
+    color: #dc168d;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px rgba(146, 165, 214, 0.8);
+    transform: scale(1.01);
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.hobby {
+    background-color: #dcd9f7;
+}
+
+.experience {
+    background-color: #d0cbfc;
+}
+
+.courses {
+    background-color: #e7cde4;
+}
+
+.contacts {
+    background-color: #e8e4f1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-form {
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    text-align: center;
+}
+
+.name, .email, .message {
+    color: #685757;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 5px;
+}
+
+.btn {
+    background-color: #aa3acc;
+    color: #fff;
+    font-family: inherit;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    /* change cursor to pointer */
+}
+
+.btn:hover {
+    background-color: #aa0977;
+    /* darker green on hover */
+}
+
+input::placeholder {
+    color: #ccc;
+    /* light gray color */
+    font-size: 14px;
+    /*slightly smaller font size */
+    font-style: italic;
+    /* italic font style */
+}
+
+textarea::placeholder {
+  color: #ccc; /* light gray color */
+  font-size: 14px; /* slightly smaller font size */
+  font-style: italic; /* italic font style */
+}
+
+.input-email, .input-name {
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
+    /* border: 1px solid #8c7474; */
+}
+
+.list_hobbies {
+    padding: 0 20px;
+}
+
+.list_hobbies li {
+    color: #514444;
+    margin-bottom: 5px;
+}
+
+.list_courses {
+    list-style: none;
+    padding: 0;
+}
+
+.list_courses li {
+    margin-bottom: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table tr th {
+    text-align: left;
+    font-weight: bolder;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #514444;
+}
+
+.form_row {
+    display: flex;
+}
+    
+.form_row .form_group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.form_row .form_group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 650px) {
+    .form_row {
+        display: block;
+    }
+    .form_row .form_group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form_group label {
+    display: flex;
+    font-size: 14px;
+    color: #514444;
+    margin-bottom: 5px;
+}
+
+/* .form_group textarea {
+    margin-bottom: 10px;
+} */
+
+.form_group input, 
+.form_group textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    /* background: transparent; */
+    /* border-bottom: 1px solid #272727; */
+    color: #000;
+    font-family: inherit;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
